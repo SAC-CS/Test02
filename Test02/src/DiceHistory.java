@@ -10,12 +10,7 @@ public class DiceHistory {
 	
 	public void AddDice (Dice gameDice)
 	{
-		//m_Dices = java.util.Arrays.copyOf(m_Dices, m_Dices.length + m_GameCount);
 	    m_Dices[m_GameCount]=gameDice;
-		//Dice[] temp = new Dice[m_GameCount];
-		// Expand the array
-	    //System.arraycopy(m_Dices, 0, temp, 0, m_Dices.length);
-	    //m_Dices = temp;
 		m_GameCount++;
 	}
 
